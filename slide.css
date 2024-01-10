@@ -1,0 +1,81 @@
+/* KARRUSEL START WEB*/
+.slideshow-container {
+  width: 50%;
+  overflow: hidden;
+  box-shadow: 50px 50px 5px rgba(70, 68, 68, 0.629);
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: relative;
+  top: -50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(116, 143, 140);
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  right: 0%;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  left: 85%;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgb(70, 68, 68);
+}
+/* KARRUSEL SLUT WEB */
+
+/*KARRUSEL START MOBIL*/
+@media (max-width: 800px) {
+  .slideshow-container {
+    padding: 3rem;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 50px 50px 5px rgba(70, 68, 68, 0.629);
+  }
+
+  /* pilene i karruselen */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: relative;
+    top: -50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(116, 143, 140);
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .prev {
+    right: 0%;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .next {
+    left: 75%;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover,
+  .next:hover {
+    background-color: rgb(70, 68, 68);
+  }
+}
+/*KARRUSEL START MOBIL*/
